@@ -1,0 +1,48 @@
+// Chap 15 Practice 108 Smart Delivery Notification System.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+
+class Notification
+{
+	public:
+		virtual void sendMessage()
+		{
+			cout << "Notification\n";
+		}
+};
+
+class EmailNotification : public Notification
+{
+	public:
+		void sendMessage()
+		{
+			cout << "Sending Email Notification\n";
+		}
+};
+
+class SMSNotification : public Notification
+{
+	public:
+		void sendMessage()
+		{
+			cout << "Sending SMS Notification\n";
+		}
+};
+
+int main()
+{
+	Notification* notification_pointer;
+
+	EmailNotification email_object;
+	SMSNotification sms_object;
+
+	notification_pointer = &email_object;
+	notification_pointer->sendMessage();
+
+	notification_pointer = &sms_object;
+	notification_pointer->sendMessage();
+
+	return 0;
+}
