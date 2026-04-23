@@ -1,4 +1,4 @@
-// Chapter 13 Practice 97 Student ID Card System.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// Chap 13 Practice 97 Student ID Card System.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
