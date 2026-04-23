@@ -1,4 +1,4 @@
-// Chapter 11 Practice 84 Fan Default + Setter + Const Getter.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// Chap 11 Practice 84 Fan Default + Setter + Const Getter.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
