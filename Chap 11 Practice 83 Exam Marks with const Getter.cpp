@@ -1,4 +1,4 @@
-// Chapter 11 Practice 83 Exam Marks with const Getter.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// Chap 11 Practice 83 Exam Marks with const Getter.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
