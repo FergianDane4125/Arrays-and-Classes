@@ -1,4 +1,4 @@
-// Chapter 15 Practice 113 Smart E-Commerce Billing and Payment Management System.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// Chap 15 Practice 113 Smart E-Commerce Billing and Payment Management System.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
